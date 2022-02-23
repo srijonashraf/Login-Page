@@ -1,0 +1,163 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: white;
+    background: url('../source/nature.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 70px;
+    color: rgb(251, 251, 251);
+}
+
+.block{
+
+    height: 600px;
+    width: 300px;
+    background-color: rgba(230, 230, 230, 0.2);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 20px 5px rgba(184, 184, 184, 0.3);
+    border-radius: 10px;
+
+}
+
+#block-pass{
+
+    position: relative;
+    top: 150px;
+   
+}
+
+.block-info{
+  
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.input{
+
+   border-width: 0px;
+   background-color: rgba(58, 58, 58);
+   border-radius: 5px;
+   height: 30px;
+   width: 60%;
+   padding-left: 10px;
+   color: white;
+   
+   
+}
+
+
+
+.username-hr, .password-hr{
+
+    position: relative;
+    opacity: 50%;
+    top: -15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#forget-pass{
+
+    float: right;
+    padding-right: 60px;
+    position: relative;
+    top: -25px;
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+
+}
+
+
+.button{
+
+    /* border-color: rgb(83, 83, 83); */
+    border-style: none;
+    background-color: rgb(58, 58, 58);
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 1px 15px rgb(82, 82, 82);
+    transition: 0.3s;
+   
+}
+
+button:hover{
+
+    transform: scale(1.2);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.png{
+
+    height: 30px;
+    padding-right: 10px;
+    transition: 0.5s;
+
+}
+
+.png:hover{
+
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.logo{
+
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+
+
+
+
+::placeholder{
+    color: white;
+    opacity: 50%;
+}
+
+#main-logo{
+   
+    height: 80px;
+    margin-top: 30%;
+    margin-left: 30%;
+
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+a{
+    color: rgb(54, 54, 54);
+}
+
+
+ol{
+     
+    align-items: center;
+    padding-left: 0px;
+
+}
