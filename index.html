@@ -41,10 +41,10 @@
                     <hr class="password-hr">
                 </div>
                 <br>
-<!-- 
+                
                 <div id="forget-pass">
                     <a id="forget-function" target="blank" href="forget-pass.html">Forget Password?
-                </div> <br> -->
+                </div> <br>
 
                 <input type="button" class="button" value="Submit" onclick="Redirection()">
 
@@ -80,22 +80,21 @@
             var userInputPass = document.getElementById("password").value
 
 
-            if (userInputId != '' && userInputPass != '') {
+            if (rightUsername == userInputId && rightPassword == userInputPass) {
 
-                if (rightUsername == userInputId && rightPassword == userInputPass) {
+                alert("Login Successful!");
 
-                    alert("Login Successful!");
+                window.location = "index.html"
 
-                    window.location = "index.html"
-
-                }
             }
+
 
             else if (userInputId == '' || userInputPass == '') {
 
                 alert("Username/Password field can not be empty.");
                 window.location = "index.html"
             }
+
 
             else {
 
